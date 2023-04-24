@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Coding Quiz Challenge</title>
+  <link href="./style.css" rel="stylesheet" />
+  <script src="./script.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="top-area">
+			<div id="viewscores" class="top-score">
+				View High Scores
+			</div>
+			<div class="top-time">
+				Time: <span id="time">0</span>
+			</div>
+		</div>
+		
+		<div class="main-area">
+			<div id="main">
+				<h2>Coding Quiz Challenge</h2>
+				<p>
+					Try to answer the following code-related questions within the time limit.
+					Keep in mind that incorrect answers will penalize your score/time
+					by ten seconds!
+				</p>
+				<input id="start" class="button" type="button" value="Start Quiz" />
+			</div>
+		</div>
+	</div>
+	
+	<script>
+		init();
+	</script>
+
+</body>
+</html>
